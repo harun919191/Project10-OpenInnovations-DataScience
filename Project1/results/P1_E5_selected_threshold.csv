@@ -1,0 +1,2 @@
+Model,Selection_Data,Selection_Criterion,Threshold,Precision,Recall,F1,FP,FN,TP
+E5,Validation,Maximum F1,0.475495308637619,0.8666666666666667,0.7878787878787878,0.8253968253968254,8,14,52

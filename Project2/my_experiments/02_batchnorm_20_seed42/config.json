@@ -1,0 +1,19 @@
+{
+  "batch_norm": true,
+  "cosine": false,
+  "channels": [
+    32,
+    64
+  ],
+  "epochs": 20,
+  "experiment": "batchnorm_20",
+  "seed": 42,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "dataset_sha256": "ffde73969ffb5e8aa97f70e51c9387f156581df4018f4c2e142233ccc329b777",
+  "run_id": "02_batchnorm_20_seed42",
+  "hypothesis": "I expect Batch Normalisation to improve optimisation stability and validation accuracy relative to the baseline by normalising intermediate activations during training.",
+  "implementation_version": "colab-v1",
+  "operator": "user-triggered run; AI-assisted scaffold",
+  "prior_public_test_observed": true
+}

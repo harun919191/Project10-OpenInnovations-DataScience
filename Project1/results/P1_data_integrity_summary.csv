@@ -1,0 +1,12 @@
+Measure,Value
+Original transactions,284807.0
+Missing values,0.0
+Infinite values,0.0
+Exact duplicates removed,1081.0
+Legitimate duplicates removed,1062.0
+Fraud duplicates removed,19.0
+Cleaned transactions,283726.0
+Cleaned legitimate transactions,283253.0
+Cleaned fraudulent transactions,473.0
+Cleaned fraud percentage,0.1667
+Legitimate-to-fraud ratio,598.84

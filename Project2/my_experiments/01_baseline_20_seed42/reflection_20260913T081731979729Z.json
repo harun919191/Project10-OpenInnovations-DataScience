@@ -1,0 +1,6 @@
+{
+  "observation": "The baseline completed 20 epochs and reached a best validation accuracy of 92.62% at epoch 19. Validation accuracy then fell to 91.90% at epoch 20. Training and validation performance improved steadily overall, with small fluctuations near the end.",
+  "interpretation": "The model appears to have converged well and begun to plateau in the later epochs. Validation accuracy remained above training accuracy because training used augmentation and dropout, while validation used unaltered inputs. The curves do not show clear sustained overfitting.",
+  "next_decision": "Retain this run as the baseline reference and next test Batch Normalisation under the same 20-epoch budget to determine whether it improves validation performance.",
+  "saved_utc": "20260913T081731979729Z"
+}

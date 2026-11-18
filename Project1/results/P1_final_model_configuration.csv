@@ -1,0 +1,2 @@
+Final_Model,Model_File,Scaler,Scaler_File,Imbalance_Method,Architecture,Optimizer,Threshold,Threshold_Selected_On,Threshold_Criterion,Test_Set_Used_For_Selection
+E5 Adaptive LR Optimised DNN,P1_E5_lr_optimised_dnn.keras,RobustScaler,P1_robust_scaler.joblib,No imbalance treatment,128-BN-D0.30-64-BN-D0.20-32-1,Adam + ReduceLROnPlateau,0.475495308637619,Validation set,Maximum F1,False

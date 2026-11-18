@@ -1,0 +1,6 @@
+{
+  "observation": "The Batch Normalisation run completed 20 epochs and reached a best validation accuracy of 93.00% at epoch 17, compared with 92.62% for the baseline. Validation loss also improved to approximately 0.192.",
+  "interpretation": "Batch Normalisation appears to have improved optimisation stability and validation performance slightly. The gain over the baseline is modest, so it should be treated as an improvement rather than strong evidence of a large effect.",
+  "next_decision": "Retain Batch Normalisation as a promising improvement and next test cosine learning-rate scheduling alone under the same 20-epoch budget.",
+  "saved_utc": "20260913T082753507431Z"
+}

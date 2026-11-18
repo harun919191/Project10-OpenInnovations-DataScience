@@ -1,0 +1,11 @@
+{
+  "run_id": "04_combined_20_seed42",
+  "experiment": "combined_20",
+  "epochs": 20,
+  "best_epoch": 18,
+  "validation_accuracy": 0.9301666666666667,
+  "validation_loss": 0.19441222763061525,
+  "parameters": 421834,
+  "checkpoint_sha256": "df797d492645ad75a734f18a78f898f84227719d5c3635a87969cebdf92acf42",
+  "completed_utc": "2026-09-13T08:35:39.497593+00:00"
+}

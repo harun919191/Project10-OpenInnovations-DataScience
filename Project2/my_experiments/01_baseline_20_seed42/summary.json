@@ -1,0 +1,11 @@
+{
+  "run_id": "01_baseline_20_seed42",
+  "experiment": "baseline_20",
+  "epochs": 20,
+  "best_epoch": 19,
+  "validation_accuracy": 0.9261666666666667,
+  "validation_loss": 0.20366459528605144,
+  "parameters": 421642,
+  "checkpoint_sha256": "f8dd72eca762320710b1e539b3c71dd4cbecfe97573ffe58f3a4fa7b598f629a",
+  "completed_utc": "2026-09-09T14:49:35.370640+00:00"
+}

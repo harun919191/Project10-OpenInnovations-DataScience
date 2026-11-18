@@ -1,0 +1,6 @@
+{
+  "observation": "The combined Batch Normalisation and cosine-scheduling run completed 20 epochs and reached a best validation accuracy of 93.02% at epoch 18. This was 0.40 percentage points above the 92.62% baseline and only about 0.02 percentage points above Batch Normalisation alone.",
+  "interpretation": "The combined configuration produced the highest validation accuracy so far, but its advantage over Batch Normalisation alone was extremely small. This suggests Batch Normalisation contributed most of the improvement, while the additional benefit of cosine scheduling is uncertain from one seed.",
+  "next_decision": "Retain the combined configuration as the current validation leader, complete the comparison across all four 20-epoch experiments, and decide whether an extended 40-epoch run is justified before final model selection.",
+  "saved_utc": "20260913T083732048639Z"
+}

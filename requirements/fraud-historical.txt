@@ -1,0 +1,10 @@
+# Versions printed by the completed Colab notebook; historical, not a new install lock.
+tensorflow==2.20.0
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+imbalanced-learn
+matplotlib
+seaborn
+joblib
+ipython

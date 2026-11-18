@@ -1,0 +1,19 @@
+{
+  "batch_norm": false,
+  "cosine": true,
+  "channels": [
+    32,
+    64
+  ],
+  "epochs": 20,
+  "experiment": "cosine_20",
+  "seed": 42,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "dataset_sha256": "ffde73969ffb5e8aa97f70e51c9387f156581df4018f4c2e142233ccc329b777",
+  "run_id": "03_cosine_20_seed42",
+  "hypothesis": "I expect cosine learning-rate scheduling to improve late-stage optimisation and validation accuracy by gradually reducing the learning rate over the 20-epoch training run.",
+  "implementation_version": "colab-v1",
+  "operator": "user-triggered run; AI-assisted scaffold",
+  "prior_public_test_observed": true
+}

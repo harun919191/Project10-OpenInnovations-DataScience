@@ -1,0 +1,11 @@
+{
+  "run_id": "02_batchnorm_20_seed42",
+  "experiment": "batchnorm_20",
+  "epochs": 20,
+  "best_epoch": 17,
+  "validation_accuracy": 0.93,
+  "validation_loss": 0.19223792711893717,
+  "parameters": 421834,
+  "checkpoint_sha256": "27484a56e2044f0daba4d7af02d883eceb9b3e2d0ab36b2ab7d8b9eb53d0b35d",
+  "completed_utc": "2026-09-13T08:24:35.682728+00:00"
+}

@@ -1,0 +1,74 @@
+{
+  "dataset": "Fashion-MNIST",
+  "version": "working-v1",
+  "sha256": "ffde73969ffb5e8aa97f70e51c9387f156581df4018f4c2e142233ccc329b777",
+  "original_source": "https://github.com/zalandoresearch/fashion-mnist",
+  "dataset_paper": "https://arxiv.org/abs/1708.07747",
+  "transformation": "Original uint8 pixels and labels preserved. Reordered official training data using saved stratified seed-42 split; official test unchanged.",
+  "shapes": {
+    "x_train": [
+      54000,
+      28,
+      28
+    ],
+    "y_train": [
+      54000
+    ],
+    "x_validation": [
+      6000,
+      28,
+      28
+    ],
+    "y_validation": [
+      6000
+    ],
+    "x_test": [
+      10000,
+      28,
+      28
+    ],
+    "y_test": [
+      10000
+    ],
+    "train_source_indices": [
+      54000
+    ],
+    "validation_source_indices": [
+      6000
+    ]
+  },
+  "source_files": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+      "bytes": 26421880,
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d"
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+      "bytes": 29515,
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+      "md5": "25c81989df183df01b3e8a0aad5dffbe"
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+      "bytes": 4422102,
+      "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+      "md5": "bef4ecab320f06d8554ea6380940ec79"
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+      "bytes": 5148,
+      "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+      "md5": "bb300cfdad3c16e7a12a480ee83cd310"
+    }
+  ],
+  "split_seed": 42,
+  "test_already_observed": true,
+  "previous_assisted_test_accuracy": 0.9184,
+  "prior_results": "Local AI-assisted pilot; not student-run Colab evidence."
+}

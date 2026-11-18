@@ -1,0 +1,6 @@
+{
+  "observation": "The cosine-scheduling run completed 20 epochs and reached a best validation accuracy of 92.12% at epoch 19, which was 0.50 percentage points lower than the 92.62% baseline.",
+  "interpretation": "Cosine scheduling did not improve validation performance in this 20-epoch run. The gradually reduced learning rate may have limited useful parameter updates before the model surpassed the baseline, although this result reflects one seed and should not be treated as universal evidence against scheduling.",
+  "next_decision": "Record cosine scheduling alone as a failed improvement hypothesis and next test the combination of Batch Normalisation and cosine scheduling under the same 20-epoch budget.",
+  "saved_utc": "20260913T083316767333Z"
+}

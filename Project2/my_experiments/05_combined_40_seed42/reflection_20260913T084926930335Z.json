@@ -1,0 +1,6 @@
+{
+  "observation": "The extended combined run completed 40 epochs and reached a best validation accuracy of 93.82% at epoch 36, improving on the 93.02% result from the 20-epoch combined run. Validation loss also decreased to approximately 0.177.",
+  "interpretation": "The extended combined configuration continued improving beyond 20 epochs and produced the strongest validation performance so far. The training and validation curves remained closely aligned in the later epochs, with no clear sustained overfitting. Because the cosine schedule horizon also changed, the improvement cannot be attributed to training duration alone.",
+  "next_decision": "Retain the 40-epoch combined configuration as the current leading candidate, update the experiment comparison, and decide whether further model widening is justified before final model selection.",
+  "saved_utc": "20260913T084926930335Z"
+}

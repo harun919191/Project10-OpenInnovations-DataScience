@@ -1,0 +1,8 @@
+Measure,Value
+False negatives,31.0
+Selected threshold,0.475495308637619
+Highest missed fraud probability,0.3971172273159027
+Median missed fraud probability,0.005183020140975714
+Lowest missed fraud probability,3.9681717112216575e-07
+Missed frauds with probability >= 0.40,0.0
+Missed frauds with probability < 0.10,26.0

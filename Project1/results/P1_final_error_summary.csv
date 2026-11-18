@@ -1,0 +1,5 @@
+Outcome,Transactions,Mean_Amount,Median_Amount,Mean_Fraud_Probability,Median_Fraud_Probability
+False Negative,31,186.0065,3.22,0.0453,0.0052
+False Positive,14,125.7779,67.75,0.6907,0.7071
+True Negative,84962,88.7334,21.9,0.0003,0.0
+True Positive,111,127.1323,24.9,0.8775,0.933

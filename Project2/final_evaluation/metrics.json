@@ -1,0 +1,89 @@
+{
+  "test_accuracy": 0.9299,
+  "test_loss": 0.20635819664001465,
+  "correct": 9299,
+  "above_92_percent": true,
+  "most_confused_pair": [
+    "T-shirt/top",
+    "Shirt"
+  ],
+  "pair_errors": 168,
+  "a_to_b": 89,
+  "b_to_a": 79,
+  "prior_public_test_observed": true,
+  "per_class": {
+    "T-shirt/top": {
+      "precision": 0.8976458546571137,
+      "recall": 0.877,
+      "f1-score": 0.887202832574608,
+      "support": 1000.0
+    },
+    "Trouser": {
+      "precision": 0.9949698189134809,
+      "recall": 0.989,
+      "f1-score": 0.9919759277833501,
+      "support": 1000.0
+    },
+    "Pullover": {
+      "precision": 0.8861386138613861,
+      "recall": 0.895,
+      "f1-score": 0.8905472636815921,
+      "support": 1000.0
+    },
+    "Dress": {
+      "precision": 0.9332669322709163,
+      "recall": 0.937,
+      "f1-score": 0.935129740518962,
+      "support": 1000.0
+    },
+    "Coat": {
+      "precision": 0.8902077151335311,
+      "recall": 0.9,
+      "f1-score": 0.8950770760815515,
+      "support": 1000.0
+    },
+    "Sandal": {
+      "precision": 0.9879396984924623,
+      "recall": 0.983,
+      "f1-score": 0.9854636591478697,
+      "support": 1000.0
+    },
+    "Shirt": {
+      "precision": 0.785,
+      "recall": 0.785,
+      "f1-score": 0.785,
+      "support": 1000.0
+    },
+    "Sneaker": {
+      "precision": 0.9526112185686654,
+      "recall": 0.985,
+      "f1-score": 0.9685349065880039,
+      "support": 1000.0
+    },
+    "Bag": {
+      "precision": 0.991,
+      "recall": 0.991,
+      "f1-score": 0.991,
+      "support": 1000.0
+    },
+    "Ankle boot": {
+      "precision": 0.9815384615384616,
+      "recall": 0.957,
+      "f1-score": 0.9691139240506329,
+      "support": 1000.0
+    },
+    "accuracy": 0.9299,
+    "macro avg": {
+      "precision": 0.9300318313436018,
+      "recall": 0.9299000000000002,
+      "f1-score": 0.9299045330426571,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.9300318313436017,
+      "recall": 0.9299,
+      "f1-score": 0.929904533042657,
+      "support": 10000.0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "03_cosine_20_seed42",
+  "experiment": "cosine_20",
+  "epochs": 20,
+  "best_epoch": 19,
+  "validation_accuracy": 0.9211666666666667,
+  "validation_loss": 0.2125392125447591,
+  "parameters": 421642,
+  "checkpoint_sha256": "6ff29889b07242228f69f372a0a13d6799922df1b14f19526791eeac1faf525b",
+  "completed_utc": "2026-09-13T08:30:54.192104+00:00"
+}
